@@ -22,9 +22,13 @@ public class function6 {
 		}
 		
 		System.out.println("жагсаалт1:" + chn.toString());
-		System.out.println("Хийх үйлдэлээ сонгоно уу: \n1 Массив хөрвүүлэх \n2 Жагсаалт нэмэх "
-				+ "\n3 Нэмсэн жагсаалт харуулах \n4  Жагсаалтад байгаа давхардсан элемент харуулах "
-				+ "\n5 Хоёр жагсаалтыг эрэмбэлэх \n6 Нэг жагсаалт эрэмбэлэх \n7 Гарах");
+		System.out.println("Хийх үйлдэлээ сонгоно уу: "
+				+ "\n1 Массив хөрвүүлэх "
+				+ "\n2 Жагсаалт нэмэх "
+				+ "\n3 Нэмсэн жагсаалт харуулах "
+				+ "\n4  Жагсаалтад байгаа давхардсан элемент харуулах "
+				+ "\n5 Хоёр жагсаалтыг эрэмбэлэх "
+				+ "\n6 Нэг жагсаалт эрэмбэлэх \n7 Гарах");
 		while(true) 
 		{
 			int songolt=sc.nextInt();
@@ -55,16 +59,16 @@ public class function6 {
 			case 4:
 				MyChain w =chn1.intersection(chn2);
 				
-				System.out.println("Давтагдсан элементүүд -brute force-"+ w.toString());
+				System.out.println("Давтагдсан элементүүд --"+ w.toString());
 			
 				break;
 			case 5:
 				MyChain w1=chn1.intersection2(chn2);
-				System.out.println("Давтагдсан элементүүд -sort both listd- =" +w1.toString());
+				System.out.println("Давтагдсан элементүүд -- =" +w1.toString());
 				break;
 			case 6:	
 			  MyChain w2=chn1.intersection3(chn2);
-			  System.out.println("Давтагдсан элементүүд -sort one list-- =" +w2.toString());
+			  System.out.println("Давтагдсан элементүүд -- =" +w2.toString());
 			case 7:
 				System.exit(0);
 				default:

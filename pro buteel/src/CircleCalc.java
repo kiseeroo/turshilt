@@ -20,6 +20,8 @@ public class CircleCalc {
  System.out.print("Enter the circle's radius: ");
  System.out.print("Enter the circle's radius: ");
  System.out.print("Enter the circle's radius: ");
+ System.out.print("Enter the circle's radius: ");
+
 
  System.out.print("Enter the circle's radius: ");
 
